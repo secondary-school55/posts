@@ -21,12 +21,14 @@ let posts = dirs.map((dir) => {
   const titleLower = title.toLowerCase();
   const [year, month, day, slug = 1] = id.split("-");
 
+  const thumbnailExists = fs.existsSync(`${dir}/thumbnail.jpg`);
+
   dir = dir.replace("public/", "");
 
   const date = { year, month, day };
   const route = `${host}/${dir}`;
   const md = `${route}/index.md`;
-  const thumbnail = `${route}/thumbnail.jpg`;
+  const thumbnail = thumbnailExists ? `${route}/thumbnail.jpg` : undefined;
   const siteRoute = `/posts/view?id=${id}&kind=${kind}`;
   const slideshows = extractSlideshows(reSlideshow, id, content);
 
