@@ -16,4 +16,4 @@ title: День фізичної культури та спорту
 
 <slideshow></slideshow>
 
-<youtube id="HUwGmjuGBhY"></youtube>
+<youtube id="33Y9NdpRm-s"></youtube>
