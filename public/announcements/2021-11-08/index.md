@@ -2,4 +2,4 @@
 title: План тижня психології 2021-2022
 ---
 
-[pdf](plan.pdf)
+<pdf src="plan.pdf"></pdf>
