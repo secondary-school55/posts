@@ -2,4 +2,4 @@
 title: План тижня психології
 ---
 
-[pdf](plan.pdf)
+<pdf src="plan.pdf"></pdf>
