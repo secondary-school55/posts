@@ -71,6 +71,7 @@ const album = posts.news
     title: post.title,
     slideshows: post.slideshows,
     date: post.date,
+    id: post.id,
   }));
 
 fs.writeFileSync("public/album.json", JSON.stringify(album));
