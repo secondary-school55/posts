@@ -2,4 +2,4 @@
 title: УВАГА!
 ---
 
-![](image.jpg)
+![](https://res.cloudinary.com/school55/image/upload/v1642493678/temp/image.jpg)
