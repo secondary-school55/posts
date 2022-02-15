@@ -1,5 +1,5 @@
 ﻿---
-title: 100 питань професіоналу 
+title: 100 питань професіоналу
 ---
 
 <youtube id="RTnuJHBbWcE"></youtube>
